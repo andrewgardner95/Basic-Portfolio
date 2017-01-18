@@ -2,24 +2,55 @@
 <html>
 <head>
 	<title>About Me</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-
-	<h1>Andrew Gardner</h1>
-		<a href="index.html">About</a>
-		<a href="contact.html">Contact</a>
-		<a href="portfolio.html">Portfolio</a>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-	<h2>About Me</h2>
 
-	<p>My name is Andrew. blah blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</p>
+	<header>
+		<h1>Andrew Gardner</h1>
+		<section class="directory">
+			<div id = "a1">
+				<a href="index.html">About</a>
+			</div>
+			<div id = "a2">
+				<a href="portfolio.html">Portfolio</a>
+			</div>
+			<div id = "a3">
+				<a href="contact.html">Contact</a>
+			</div>
+		</section>
+	</header>
 
+<div class="maincontent">
+	<h2>Portfolio</h2>
+		<div id="portfolio">
+			<img class="placeholder" src="assets/images/cat.jpg">
+			<img class="placeholder" src="assets/images/city.jpg">
+			<img class="placeholder" src="assets/images/puppy.jpg">
+			<img class="placeholder" src="assets/images/soccer.jpg">
+			<img class="placeholder" src="assets/images/surfing.jpg">
+		</div>
+</div>
+
+<div class="sidebar">
 	<h3>Connect with me</h3>
-	<a href="https://github.com/andrewgardner95">GitHub</a>
-	<a href="https://www.linkedin.com/in/andrewgardnerusd">LinkedIn</a>
-	<a href="http://stackoverflow.com/users/7347918/andrew-gardner?tab=profile">Stack Overflow</a>
+		<div class="icons">
+		<a href="https://github.com/andrewgardner95">
+			<img src="assets/images/github.png" alt="GitHub" style="width:75px;height:75px"></a>
+		<a href="https://www.linkedin.com/in/andrewgardnerusd">
+			<img src="assets/images/linkedin.png" alt="LinkedIn" style="width:75px;height:75px"></a>
+		<a href="http://stackoverflow.com/users/7347918/andrew-gardner?tab=profile">
+			<img src="assets/images/stackoverflow.png" alt="stackoverflow.png" style="width:75px;height:75px"></a>
+		</div>
+</div>
 
-	<footer>Copyright 2016 Andrew Gardner</footer>
+	<footer>
+		<div id="footertext">
+		&copy;Copyright 2016 Andrew Gardner
+		</div>
+	</footer>
 
 </body>
 </html>
